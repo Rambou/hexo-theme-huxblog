@@ -6,7 +6,7 @@ date:       2014-01-29 12:00:00
 author:     "Hux"
 header-img: "post-bg-2015.jpg"
 tags:
-    - 生活
+    - News
 ---
 
 > “Yeah It's on. ”
@@ -14,7 +14,7 @@ tags:
 
 ## 前言
 
-Hux 的 Blog 就这么开通了。
+Rambou Blog。
 
 [跳过废话，直接看技术实现 ](#build)
 
@@ -76,4 +76,4 @@ Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Les
 
 如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
 
-—— Hux 后记于 2015.10
+—— Rambou 2015.10
