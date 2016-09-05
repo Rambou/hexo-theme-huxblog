@@ -3,49 +3,49 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kaijun's Blog
-subtitle: To Be A Lean Developer!
-author: Kaijun Chen
-language:
+title: Rambou's Blog
+subtitle: Live, Love, Learn...
+author: Bousios Nikoloas
+language: English, Greek
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kaijun.rocks/hexo-theme-huxblog
-root: /hexo-theme-huxblog/
+url: https://blog.rambou.gr
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Kaijun的博客 | Kaijun's Blog
+SEOTitle: Rambou's Blog | Bousios Nikoloas
 header-img: img/home-bg.jpg
-email: Kaijun.cn@gmail.com
-description: ""
-keyword: ""
+email: nickos.bou@gmail.com
+description: "Rambou's personal blog. Thoughts, travels, coding, research"
+keyword: "rambou, blog, personal, nikolaos, bousios, nikolas"
 
 
 # SNS settings
 # RSS: false
-weibo_username:     Demonbane
-zhihu_username:     Demonbane
-github_username:    Kaijun
-twitter_username:   Demonbane_x
-facebook_username:  demonbane.cn
-linkedin_username:  kaijun-chen-42089354
+#weibo_username:     rambou
+#zhihu_username:     rambou
+github_username:    rambou
+twitter_username:   nickosbou
+#facebook_username:  rambou
+linkedin_username:  nickosbou
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Disqus settings
-disqus_username: hexo-theme-huxblog
+disqus_username: rambou
 
 # Duoshuo settings
 # duoshuo_username: kaijun
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
@@ -53,13 +53,13 @@ duoshuo_share: true                     # set to false if you want to use Commen
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: blog.rambou.gr
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我要成为魔法师!"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Live, Love, Learn"
+sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
@@ -70,22 +70,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Kaijun's Blog",
-        href: "http://blog.kaijun.rocks"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "Rambou's Blog",
+        href: "https://blog.rambou.gr"
     },{
         title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
         href: "#"
     }
 ]
@@ -147,5 +135,11 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Kaijun/hexo-theme-huxblog
+  repo: https://github.com/Rambou/blog.git
   branch: gh-pages
+
+# Admin Plugin
+admin:
+  username: rambou
+  password_hash: $2a$08$2/RBcZ/hQJAocM8y4MeXIuDleHbMowUhfNVbtThvglhfdk70.f/xi #password123 #bcrypt hash
+  secret: a secret something
